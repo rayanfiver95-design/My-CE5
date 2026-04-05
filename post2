@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Essential UI Design Principles | Rayan Fiver Blog</title>
+  <meta
+    name="description"
+    content="Deep dive into fundamental design principles including hierarchy, contrast, alignment, and how to apply them effectively."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">Rayan Fiver</a>
+      <nav class="main-nav">
+        <a href="index.html#articles">Articles</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article-main">
+    <div class="article-wrap">
+      <a href="index.html#articles" class="back-link">← Back to all articles</a>
+
+      <header class="article-header">
+        <span class="badge">Design Principles</span>
+        <h1>Essential UI Design Principles Every Designer Should Know</h1>
+        <p class="article-meta">By Rayan Fiver • 18 Apr 2026 • 10 min read</p>
+        <p class="article-intro">
+          Good UI design is built on timeless principles. Understanding and applying these fundamentals will dramatically improve the quality of your designs and create more intuitive user experiences.
+        </p>
+      </header>
+
+      <article class="article-content">
+        <h2>The Foundation of Good UI Design</h2>
+        <p>
+          Great design isn't about making things look pretty. It's about solving problems and creating experiences that feel natural and intuitive to users. To achieve this, we rely on established design principles that have been refined over decades across multiple disciplines.
+        </p>
+
+        <h2>Visual Hierarchy</h2>
+        <p>
+          Visual hierarchy guides users through your interface by establishing what's most important. It's created through the strategic use of size, color, contrast, spacing, and typography. A strong visual hierarchy helps users quickly understand what to focus on and how to navigate your interface.
+        </p>
+
+        <h3>Implementing Effective Hierarchy</h3>
+        <ul>
+          <li><strong>Size:</strong> Larger elements draw attention first</li>
+          <li><strong>Color:</strong> Bright or contrasting colors stand out</li>
+          <li><strong>Position:</strong> Elements above the fold get more attention</li>
+          <li><strong>Weight:</strong> Bold text appears more important</li>
+          <li><strong>Spacing:</strong> Isolated elements feel more significant</li>
+        </ul>
+
+        <h2>Contrast and Readability</h2>
+        <p>
+          Contrast is crucial for both aesthetics and functionality. It helps distinguish between different elements and ensures content is readable. High contrast between text and background is essential for accessibility, ensuring your content can be read by everyone, including those with visual impairments.
+        </p>
+
+        <div class="code-block">
+          <div class="code-header">
+            <span>contrast-example.css</span>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre><code><span class="token-comment">/* Good contrast ratios for accessibility */</span>
+body {
+  background: #ffffff;
+  color: #1a1a1a;
+  <span class="token-comment">/* AA standard: 4.5:1 for normal text */</span>
+}
+
+.highlight {
+  background: #2563eb;
+  color: #ffffff;
+  <span class="token-comment">/* AAA standard: 7:1 for critical text */</span>
+}</code></pre>
+        </div>
+
+        <h2>Alignment and Spacing</h2>
+        <p>
+          Proper alignment creates order and makes interfaces feel polished and professional. Consistent spacing between elements creates visual rhythm and helps users process information more easily. Use a spacing scale and grid system to maintain consistency throughout your designs.
+        </p>
+
+        <h2>Typography as Design</h2>
+        <p>
+          Typography isn't just about choosing pretty fonts. It's a powerful design tool that can communicate emotion, establish hierarchy, and significantly impact usability. Choose typefaces that complement your brand, use font sizes that create clear hierarchy, and ensure adequate line-height for readability.
+        </p>
+
+        <h2>Color Psychology</h2>
+        <p>
+          Colors evoke emotions and influence user behavior. Understanding color psychology helps you choose palettes that support your design goals. Consider cultural differences and always maintain sufficient contrast for accessibility.
+        </p>
+
+        <h3>Color Palette Strategy</h3>
+        <ul>
+          <li>Use a primary color for main actions and focus</li>
+          <li>Secondary colors for supporting elements</li>
+          <li>Neutral colors for backgrounds and text</li>
+          <li>Status colors for feedback (red for errors, green for success)</li>
+          <li>Ensure at least 4.5:1 contrast ratio for text</li>
+        </ul>
+
+        <h2>Whitespace: The Unsung Hero</h2>
+        <p>
+          Whitespace (or negative space) is just as important as the elements themselves. It provides breathing room, reduces cognitive load, and helps users focus on what matters. Don't fear empty space—use it strategically to create elegant, readable designs.
+        </p>
+
+        <h2>Consistency and Patterns</h2>
+        <p>
+          Consistency reduces the learning curve for your interface. When patterns are established and maintained, users can predict behavior and navigate intuitively. Create design systems and component libraries to ensure consistency across all pages and interactions.
+        </p>
+
+        <h2>Key Takeaways</h2>
+        <ul>
+          <li>Visual hierarchy guides users through your interface</li>
+          <li>Contrast is essential for both aesthetics and accessibility</li>
+          <li>Alignment and spacing create order and polish</li>
+          <li>Typography is a powerful design tool, not an afterthought</li>
+          <li>Whitespace is your ally in creating elegant designs</li>
+          <li>Consistency breeds confidence in your users</li>
+        </ul>
+      </article>
+
+      <section class="related-posts">
+        <h3>Related Articles</h3>
+        <div class="related-links">
+          <a href="post1.html">Responsive Web Design</a>
+          <a href="post3.html">Modern Web Development Tools</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Rayan Fiver's Blog. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/rayanfiver95-designcreate" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+      </div>
+      <div class="quick-links"></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
