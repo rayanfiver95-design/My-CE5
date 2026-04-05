@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rayan Fiver Blog | Frontend Development Journal</title>
+  <meta
+    name="description"
+    content="A personal web development blog by Rayan Fiver featuring frontend projects and learning progress."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">Rayan Fiver Blog</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero hero-umme">
+      <div class="container hero-banner">
+        <div class="hero-main">
+          <p class="eyebrow">Web Development Journey</p>
+          <h1>Rayan Fiver - Frontend Development Blog</h1>
+          <p class="subtitle">
+            Building modern, responsive web applications with HTML, CSS, and JavaScript. Follow my journey through frontend projects, tutorials, and learning experiences.
+          </p>
+          <div class="hero-actions">
+            <a href="#articles" class="btn btn-primary">Read Articles</a>
+            <a href="#about" class="btn btn-secondary">About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="posts-section" id="articles">
+      <div class="container">
+        <div class="section-head">
+          <h2>Latest Articles</h2>
+          <p>Insights from my web development projects and learning experiences.</p>
+        </div>
+
+        <div class="post-grid post-list-layout" id="postGrid">
+          <article class="post-card" data-search="responsive design css layout web project">
+            <a href="post1.html" class="post-thumb-link" aria-label="Read first article">
+              <img class="post-thumb" src="https://picsum.photos/id/20/900/520" alt="Laptop with responsive design" loading="lazy" />
+            </a>
+            <div class="post-content">
+              <div class="post-meta-top">
+                <span class="badge">Web Design</span>
+                <span>April 2026</span>
+              </div>
+              <h3>Building Responsive Websites</h3>
+              <p>Learn how to create websites that look great on all devices using modern CSS techniques and mobile-first approach.</p>
+              <div class="post-meta-bottom">
+                <span>8 min read</span>
+                <a href="post1.html" class="btn btn-secondary">Read More</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card" data-search="javascript interactive features animation">
+            <a href="post2.html" class="post-thumb-link" aria-label="Read second article">
+              <img class="post-thumb" src="https://picsum.photos/id/160/900/520" alt="Code on screen" loading="lazy" />
+            </a>
+            <div class="post-content">
+              <div class="post-meta-top">
+                <span class="badge">JavaScript</span>
+                <span>March 2026</span>
+              </div>
+              <h3>JavaScript Interactive Features</h3>
+              <p>Master interactivity with vanilla JavaScript - from event handling to DOM manipulation and animations.</p>
+              <div class="post-meta-bottom">
+                <span>10 min read</span>
+                <a href="post2.html" class="btn btn-secondary">Read More</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card" data-search="portfolio projects development learning">
+            <a href="post3.html" class="post-thumb-link" aria-label="Read third article">
+              <img class="post-thumb" src="https://picsum.photos/id/3/900/520" alt="Development workspace" loading="lazy" />
+            </a>
+            <div class="post-content">
+              <div class="post-meta-top">
+                <span class="badge">Career</span>
+                <span>February 2026</span>
+              </div>
+              <h3>Building Your Developer Portfolio</h3>
+              <p>Strategies for showcasing your frontend projects effectively to land your first development role.</p>
+              <div class="post-meta-bottom">
+                <span>7 min read</span>
+                <a href="post3.html" class="btn btn-secondary">Read More</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container about-card about-simple">
+        <h2>About Rayan Fiver</h2>
+        <p>
+          I'm a passionate frontend developer dedicated to creating beautiful and functional web experiences. This blog documents my journey through various projects and technologies.
+        </p>
+        <p>
+          I focus on clean code, responsive design, and user experience. Always learning, always building, always growing as a developer.
+        </p>
+        <p>GitHub: <a href="https://github.com/rayanfiver95-designcreate" target="_blank" rel="noopener noreferrer">github.com/rayanfiver95-designcreate</a></p>
+      </div>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <div class="container newsletter-wrap">
+        <div>
+          <h2>Get In Touch</h2>
+          <p>Email: contact@rayanfiver.dev</p>
+          <p>Location: Available Worldwide</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Rayan Fiver's Blog</p>
+      <div class="social-links">
+        <a href="https://github.com/rayanfiver95-designcreate" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+      </div>
+      <div class="quick-links"></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
