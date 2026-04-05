@@ -1,0 +1,42 @@
+# Rayan Fiver's Blog
+
+A modern, responsive personal blog built with HTML, CSS, and JavaScript. Showcasing articles about web development, design principles, and modern tools.
+
+## 📁 Files Included
+
+- **index.html** - Homepage with blog posts
+- **post1.html** - Article: Responsive Web Design
+- **post2.html** - Article: UI Design Principles
+- **post3.html** - Article: Modern Web Development Tools
+- **style.css** - Complete styling and responsive design
+- **script.js** - Interactive features (search, menu, copy)
+
+## ✨ Features
+
+✅ Fully Responsive Design  
+✅ Blog Post Search Functionality  
+✅ Contact Form  
+✅ Code Block Copy Feature  
+✅ Mobile-Friendly Navigation  
+✅ Modern & Clean Aesthetic  
+
+## 🚀 Live Demo
+
+Visit: `https://rayanfiver95-design.github.io/rayanfiver95-blog/`
+
+## 🔧 Customization
+
+- Edit `index.html` to add more blog posts
+- Modify `style.css` to change colors and styling
+- Update social links in the footer sections
+
+## 📝 Adding New Articles
+
+1. Create a new HTML file (e.g., `post4.html`)
+2. Copy the structure from `post1.html`, `post2.html`, or `post3.html`
+3. Update the content
+4. Add a new post card to `index.html` in the `#postGrid` section
+
+## 📄 License
+
+Free to use and modify for personal projects.
